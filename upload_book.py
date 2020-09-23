@@ -12,7 +12,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
 class BookUploader:
-	"""docstring for BookUploader"""
+	""" BookUploader is a class that allow you to upload as many books as you like"""
 	def __init__(self ):
 		super(BookUploader, self).__init__()
 		self.current_path = os.path.dirname(os.path.realpath(__file__)) + '/'
